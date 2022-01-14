@@ -1,0 +1,8 @@
+.containter {
+    display:flex;
+    background-color: wheat;
+
+}
+header {
+    display: flex;
+}
