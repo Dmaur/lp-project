@@ -1,11 +1,21 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    
     
 }
 
@@ -13,7 +23,32 @@ header {
     display: flex;
     background-color: #ffcc00;
     justify-content: space-between;
+    padding: 5px;
     align-items: center;
+    
+}
+
+.anarch {
+    width: 40px;
+    height:20px;
+
+    
+
+}
+
+.headp {
+    font-size: 25px;
+    align-self: center;
+    
+}
+
+.pphlogo {
+    gap: 2px;
+    display: flex;
+    text-align: justify;
+    
+
+    
     
 }
 
@@ -28,6 +63,34 @@ li {
 
 .title {
     background-color: #ffcc00;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.titlebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 45px;
+}
+button {
+    background-color: #8e0000;
+}
+
+.titleimg {
+    width: 300px;
+    height: 150px;
+    border: solid #8e0000 8px;
+    border-radius: 25px;
+    margin: 25px;
+    
+    
+
 }
 
 
