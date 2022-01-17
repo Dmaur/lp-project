@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: 'Teko', sans-serif;
     display: flex;
+    
+    
 
 }
 
@@ -13,6 +15,7 @@ a, a:hover, a:focus, a:active {
 
 .container {
     display: flex;
+    width: 100%;
     flex-direction: column;
     flex: 1;
     
@@ -21,16 +24,17 @@ a, a:hover, a:focus, a:active {
 
 header {
     display: flex;
-    background-color: #ffcc00;
     justify-content: space-between;
+    background-color: #ffcc00;
     padding: 5px;
-    align-items: center;
+    
     
 }
 
 .anarch {
     width: 40px;
     height:20px;
+    margin-top: 5px;
 
     
 
@@ -38,14 +42,16 @@ header {
 
 .headp {
     font-size: 25px;
-    align-self: center;
+    padding: 0;
+    margin: 0;
     
 }
 
 .pphlogo {
     gap: 2px;
     display: flex;
-    text-align: justify;
+    align-items: flex-start;
+    
     
 
     
@@ -55,6 +61,7 @@ header {
 ul {
     display:flex;
     gap: 15px;
+    margin-top: 5px;
 }
 
 li {
@@ -71,23 +78,42 @@ li {
 .titlebody {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
+    width: 400px;
+    
+    
+}
+
+.p1 {
+    font-size: 25px;
+
 }
 
 h3 {
     font-size: 45px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 button {
+    align-self: flex-start;
+    color: #ffcc00;
     background-color: #8e0000;
+    height:30px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 12px;
 }
 
 .titleimg {
     width: 300px;
-    height: 150px;
+    height: auto;
     border: solid #8e0000 8px;
     border-radius: 25px;
     margin: 25px;
+    margin-top: 56px;
+    
     
     
 
@@ -98,16 +124,20 @@ button {
     background-color: #8e0000;
     display: flex;
     justify-content: space-evenly;
-    padding: 56px;
+    padding: 25px;
     flex-wrap: wrap;
+    
+    
 
 }
 
 .img-w-txt {
-    text-align: justify;
-    width: 175px;
-    margin: 20px;
-    
+    display: flex;
+    flex-flow: column wrap;
+    text-align: right;
+    font-size: 22px;
+    max-width: 175px;
+
 
 }
 
@@ -120,5 +150,9 @@ button {
 
 
 .quote {
-    background-color: #6c5b7b;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
